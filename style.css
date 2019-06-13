@@ -41,10 +41,38 @@ footer p{
     padding: 30px;
 }
 
+/* contact */
 .contact{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 500px;
+    margin: 20px;
 }
+
+.name{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.email{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.content{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.button{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: gray;
+}
+
