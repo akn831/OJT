@@ -35,6 +35,9 @@ body{
 }
 
 /* main */
+main{
+    height: 800px;
+}
 .dog {
     background-image: url(./img/dog.jpg);
     height: 100vh;
@@ -42,13 +45,15 @@ body{
 }
 
 h1{
+    color: gray;
     font-size: 35px;
     margin: 30px;
+    font-family: 'ヒラギノ角ゴ ProN W3';
 }
 
 .threepost {
     display: flex;
-justify-content: center;
+    justify-content: center;
 }
 
 .threepost li {
@@ -73,6 +78,8 @@ justify-content: center;
 }
 
 h2{
+    font-family: 'ヒラギノ角ゴ ProN W3';
+    color: gray;
     font-size: 35px;
     margin: 30px;
 }
@@ -100,16 +107,18 @@ h2{
     height: 50px;
     margin-bottom: 20px;
     background-color: gray;
+    border-radius: 10px; 
 }
 
 /* footer */
 footer{
     background-color: black;
     width: 100%;
+    height: 50px;
 }
 
 footer p{
     color: white;
-    font-size: 30px;
-    padding: 30px;
+    font-size: 20px;
+    padding: 15px;
 }
